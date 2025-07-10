@@ -214,5 +214,5 @@ def add_employee():
     return render_template('add_employee.html')
 
 if __name__ == "__main__":
-    #init_db()
+    init_db()
     app.run(debug=True)
